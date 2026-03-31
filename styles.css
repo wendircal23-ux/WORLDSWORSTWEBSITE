@@ -1,0 +1,114 @@
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Uses text color of parent element */
+  /* Or use a specific color: color: #333; */
+}
+
+/* Div tag +external style sheet*/
+#jumbalaya {
+  background-color: #acb087;
+}
+
+/*border*/
+#borderThreeSteps {
+  border-color: green;
+  border-style: dotted;
+  border-width: 5px;
+}
+#borderOneStep {
+  border: double red 5px;
+}
+
+.whitebox {
+  width: 400px; /* width of the box */
+  height: 400px; /* height of the box */
+  padding: 10px; /* space inside the box around the content */
+  border: 5px solid red; /* border thickness */
+  box-sizing: border-box; /* include padding & border in width/height */
+}
+/*Padding*/
+
+#nopadding {
+  border: double green 5px;
+}
+/*to change the position of the padding*/
+#nopadding {
+  position: absolute;
+  top: 750px;
+  left: 550px;
+}
+
+#nopadding {
+  width: 850px; /* sets width */
+  height: 125px; /* sets height */
+  border: double green 5px;
+  margin: 20px auto; /* centers horizontally and adds vertical spacing */
+}
+
+#withpadding {
+  padding: 25px;
+
+  border-left: blue 5px dotted;
+  border-right: blue 5px dotted;
+  border-top: orange 5px dotted;
+  border-bottom: orange 5px dotted;
+}
+
+.whitebox {
+  background-color: white;
+  width: 600px;
+  height: 85px;
+}
+
+/*Margin*/
+#nomargin {
+  float: right;
+}
+
+#withmargin {
+  margin: 20px;
+  float: right;
+}
+
+.whitebox {
+  border: solid black 1px;
+  padding: 8px;
+  background-color: white;
+  width: 80px;
+  height: 36px;
+}
+
+#nomargin {
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+
+/*Relative position*/
+#ketch {
+  position: relative;
+  top: 25px;
+}
+
+#up {
+  position: relative;
+  left: 750px;
+  position: relative;
+  bottom: 40px;
+}
+
+.mustard {
+  background-color: white;
+  border: 2px black solid;
+  padding: 10px;
+  width: 300px;
+  height: 35px;
+}
+
+/*absolute position*/
+
+h3 {
+  position: absolute;
+  left: 120px;
+  top: 100px;
+  text-decoration-color: #acb087;
+}
